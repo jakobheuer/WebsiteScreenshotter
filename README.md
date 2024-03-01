@@ -40,3 +40,6 @@ The program expects a JSON file named `scan.json` with the following structure:
 ```
 python3 Screenshot.py
 ```
+# What it looks like
+![Screenshotter](https://github.com/jakobheuer/WebsiteScreenshotter/assets/45359957/07d62636-52fc-4ce9-bb3d-e097891525d3)
+
