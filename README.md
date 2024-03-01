@@ -18,19 +18,25 @@ The program expects a JSON file named `scan.json` with the following structure:
 ```json
 {
   "192.168.1.1": {
-    "hostname": "example.com",
+    "hostname": "jakobheuer.com",
     "ports": {
       "80": "http",
       "443": "https"
     }
   },
   "192.168.1.2": {
-    "hostname": "anotherexample.com",
+    "hostname": "example.com",
     "ports": {
       "8080": "http",
       "8443": "https"
     }
   }
 }
+```
 
-# Test
+# How to Run
+1. Place your 'scan.json' in the same directory as the script.
+2. Run the script:
+```
+python3 Screenshot.py
+```
