@@ -1,7 +1,7 @@
 # WebsiteScreenshotter
 ## Description
-The Website Screenshotter is a Python application designed to screenshot web pages. It reads a list of hostnames and ports from a JSON and uses Selenium WebDriver to take screenshots. 
-This is helpful in large pentests to look through hundreds or thousands of hostnames and ports that for example nmap had found previously. The screenshots help to find vulnerable targets more easily.
+A multithreaded website screenshotter. Reads a list of hostnames and ports from a JSON and takes screenshots. 
+Helps in finding vulnerable looking targets in pentests with large amounts of webpages previously found by nmap or other tools.
 
 ## Requirements
 - Python 3.6 or higher
